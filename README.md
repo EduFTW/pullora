@@ -220,7 +220,12 @@ Optional: Add an Ingress for your custom domain.
 2. Connect an Azure DevOps project.
 3. Select repositories to monitor.
 4. Wait for the first sync to finish.
+   
+### Users and roles
 
+- The first user you register becomes the system owner.
+- Owners and admins can manage projects, members, settings, review Pull Requests with AI, and licenses.
+- Members can view data and use the product, but cannot change global settings.
 ### Azure DevOps PAT scopes
 
 Create a PAT with at least:
@@ -273,15 +278,16 @@ Only a few runtime values are required for installation. All operational setting
 - Provider selection: Claude or OpenAI.
 - Model ID: text field so you can use any supported model ID.
 - API key: stored in the database.
-- Prompt editor: custom instructions used for each analysis (this does not train a model).
+- Prompt editor: custom instructions used for analysis.
 - Automatic analysis interval can be set in minutes (default 60).
 - Automatic analysis processes up to 10 new active PRs per run.
 - Automatic analysis only runs for PRs without an existing AI review.
+- You can re-run a new analysis manually if needed, for example if the Pull Request was modified and you want to check it again with the AI.
 
 ### Licensing (Settings > License, UI)
 
 - Trial lasts 7 days from first run.
-- License keys are valid for 1 year.
+- License keys are valid for 1 year, or more.
 - Enter the license key to unlock the app after trial.
 
 ## Core features
