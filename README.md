@@ -63,7 +63,7 @@ http://localhost:8080
 ```yaml
 services:
   pullora:
-    image: eduardbadx/pullora:3.0
+    image: eduardbadx/pullora:1.0
     container_name: pullora
     env_file:
       - .env
@@ -151,7 +151,7 @@ spec:
     spec:
       containers:
         - name: pullora
-          image: eduardbadx/pullora:3.0
+          image: eduardbadx/pullora:1.0
           ports:
             - containerPort: 3000
           env:
@@ -227,7 +227,7 @@ Use a read-only token and rotate it periodically.
 
 ## How sync works
 
-- The backend scheduler runs every 10 minutes.
+- The backend scheduler runs every 10 minutes by default, time can be changed from the UI.
 - On startup it performs an initial sync.
 - Manual sync is available from the UI.
 - First sync can take time for large projects.
@@ -290,6 +290,7 @@ Only a few runtime values are required for installation. All operational setting
 - Filters for Active, Ready, Completed, Abandoned
 - Search by title, repo, or author
 - Detailed PR cards with status and metadata
+- All can be exported to excel for better analysis or any other requirement that you have
 
 ### Analytics
 
@@ -297,12 +298,13 @@ Only a few runtime values are required for installation. All operational setting
 - User Story Analytics
 - Task Analytics
 - Issue Analytics
-- Export to Excel for each analytics tab
+- All can be exported to excel for better analysis or any other requirement that you have
 
 ### Roles
 
 - Project members and security groups
 - Environment approvals and policies
+- All can be exported to excel for better analysis or any other requirement that you have
 
 ### Notifications
 
@@ -343,7 +345,8 @@ Example embed:
 
 - Trial lasts 7 days from first run.
 - If the trial expires, the app is blurred except for Settings.
-- License keys are provided by the vendor and are valid for 1 year.
+- If you liked the product, reach out to me for a license.
+- License keys are valid for 1 year, or more.
 - Paste the license key in Settings > License.
 
 ## Data and backups
