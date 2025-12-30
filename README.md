@@ -11,8 +11,15 @@ Azure DevOps provides the data, but teams still struggle with:
 - Manual tracking of KPIs and cycle time
 - Slow reviews with inconsistent quality
 - Limited cross-team analytics
+- You can't export to an Excel all the data and work with it
 
 Pullora solves this by aggregating data from all connected projects, keeping it in a local database, and presenting actionable dashboards and alerts.
+
+# Official Repository for the image
+
+This is the only official repository where you can download the last version of Pullora:
+
+[![Docker Hub](https://img.shields.io/badge/Docker%20Hub-eduardbadx-blue?logo=docker)](https://hub.docker.com/u/eduardbadx)
 
 ## What it does
 
