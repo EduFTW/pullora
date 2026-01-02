@@ -357,7 +357,7 @@ Only a few runtime values are required for installation. All operational setting
 
 ## AI Prompt Customization Guide
 
-![Ai-Prompt](ai-prompt-customization-guide)
+![Ai-Prompt](ai-prompt-customization-guide.png)
 ![Best Practices](ai-best-practices.png)
 ![Security-Focused-Template](security-focused-template.png)
 ![Performance-Focused-Template](performance-focused-template.png)
