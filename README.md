@@ -355,6 +355,14 @@ Only a few runtime values are required for installation. All operational setting
 ![Pull Request](pull-requests.png)
 ![Analytics](analytics.png)
 
+## AI Prompt Customization Guide
+
+![Ai-Prompt](ai-prompt-customization-guide)
+![Best Practices](ai-best-practices.png)
+![Security-Focused-Template](security-focused-template.png)
+![Performance-Focused-Template](performance-focused-template.png)
+![Customization-Tips](customization-tips.png)
+
 
 ## Licensing and trial
 
