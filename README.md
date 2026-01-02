@@ -405,4 +405,4 @@ docker logs -f pullora
 
 ## Support
 
-For support or licensing requests, contact your vendor or internal administrator.
+For support or licensing requests, contact [Eduard ST](https://www.linkedin.com/in/steduard/)
