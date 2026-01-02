@@ -351,7 +351,7 @@ Add screenshots to `docs/screenshots/` and update the paths below.
 Example embed:
 
 ```markdown
-![Dashboard](docs/screenshots/dashboard.png)
+![Dashboard](dashboard.png)
 ```
 
 ## Licensing and trial
