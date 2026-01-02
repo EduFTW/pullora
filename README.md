@@ -346,7 +346,7 @@ Only a few runtime values are required for installation. All operational setting
 ![Notifications](notifications.png)
 ![Email-Configuration](email-configuration.png)
 ![AI-Configuration](ai-configuration.png)
-![AI-Configuration-Agent](ai-configuration2.png)
+![AI-Configuration-Agent](ai-configuration-2.png)
 ![License](license.png)
 ![Token-Configuration](token-configuration.png)
 
