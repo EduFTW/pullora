@@ -339,20 +339,22 @@ Only a few runtime values are required for installation. All operational setting
 
 ## Screenshots
 
-Add screenshots to `docs/screenshots/` and update the paths below.
+![Login](login.png)
+![Project Selector](project-selector.png)
+![Settings](settings.png)
+![Team-Memebrs](team-memebrs.png)
+![Notifications](notifications.png)
+![Email-Configuration](email-configuration.png)
+![AI-Configuration](ai-configuration.png)
+![AI-Configuration-Agent](ai-configuration2.png)
+![License](license.png)
+![Token-Configuration](token-configuration.png)
 
-- Login: `docs/screenshots/login.png`
-- Project Selector: `docs/screenshots/project-selector.png`
-- Dashboard: `docs/screenshots/dashboard.png`
-- Pull Requests: `docs/screenshots/pull-requests.png`
-- Analytics: `docs/screenshots/analytics.png`
-- Settings (AI + License): `docs/screenshots/settings.png`
 
-Example embed:
-
-```markdown
 ![Dashboard](dashboard.png)
-```
+![Pull Request](pull-requests.png)
+![Analytics](analytics.png)
+
 
 ## Licensing and trial
 
